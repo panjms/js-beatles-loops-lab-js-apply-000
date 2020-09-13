@@ -23,7 +23,7 @@ function iLoveTheBeatles(number) {
   do {
     arr.push("I love the Beatles!");
     i++;
-  } while (i <= 15 - number);
+  } while (i < 15 - number);
   
   return arr;
 }
